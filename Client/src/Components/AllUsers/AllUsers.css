@@ -1,0 +1,53 @@
+.users-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(215, 226, 202, 0.463);
+    padding: 30px;
+    margin: 5rem auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5), -5px -5px 5px rgba(222, 164, 164, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+#homebtn{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(192, 210, 201);
+    color: black;
+    font-weight: bold;
+}
+
+.delbtn{
+    font-size: small;
+    margin: 30px auto;
+}
+.editbtn{
+    height: fit-content;
+}
+
+@media (max-width:768px)
+{
+    .users-container{
+        width: 90%;
+    }
+    .editbtn{
+        margin-right: 0;
+    }
+}
